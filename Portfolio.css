@@ -1,0 +1,194 @@
+body{
+	margin: 0;
+	padding:0;
+}
+
+.navbar{
+	position: fixed;
+	top: 0%;
+	width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	left: 0;
+	vertical-align: middle;
+}
+
+li {
+	display: inline-block;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	
+	
+	
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#container{
+	width: 80%;
+	margin: 0px auto;
+			
+}	
+#main-navigation{
+	height: 10vh;
+	padding: 5px;
+	line-height: 10vh;
+			
+}
+#titel-tekst{
+	text-align: center;
+}
+#del1{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 60px;
+	padding-top: 10px;
+	margin: 0px;
+}
+
+#del2{
+	font-family: 'Merienda One', cursive;
+	font-size: 50px;
+	color: #2980b9;
+	padding: 0px;
+	margin: 0px;
+}
+
+.forside-tekst{	
+	
+}
+
+.forside-tekst h2{
+	width: 33%;
+	display: inline-block;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.info-tekst{	
+	
+}
+
+.info-tekst h2{
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.info-tekst p{
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.info-tekst-hvid{	
+	
+}
+
+.info-tekst-hvid h2{
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+.info-tekst-hvid p{
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.gallery-image {
+	display: inline-block;
+	width: 33.3333%;
+	color: #7f8c8d;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.gallery-image:hover {
+    background-color: black;
+	color: #ecf0f1;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+	font-family: 'Roboto Condensed', sans-serif;
+    padding: 15px;
+    text-align: center;
+	}
+.forside-container {
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	
+}
+
+.gallery-container{
+	width: 100%;
+	height: 100vh;
+	background-color: #333;
+	padding-bottom: 15%;
+	padding-top: 5px;
+}
+
+.info-container{
+	width: 100%;
+	height: 100vh;
+	background-color: white;	
+	top: 0;
+}
+
+.titel-tekst-containers-hvid{
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	padding-top: 0px;
+	margin: 0px;
+	color: white;
+	top: 0;
+	
+}
+
+.titel-tekst-containers-sort{
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	padding-top: 0px;
+	margin: 0px;
+	color: black;
+	top: 0;
+	
+}
+.cv-container{
+	width: 100%;
+	height: 100vh;
+	background-color: #333;
+	padding-top: 5px;
+	
+}
+.contact-me-container{
+	width: 100%;
+	height: 100vh;
+	background-color: white;	
+		
+}
